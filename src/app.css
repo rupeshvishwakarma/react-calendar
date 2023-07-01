@@ -1,0 +1,72 @@
+.day {
+  background-color: #fcf3cf;
+  margin: 0;
+  padding: 15px;
+}
+
+.days ul li h5 {
+  font-weight: 1000;
+}
+
+.date {
+  padding: 0%;
+}
+
+.date ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.date ul li {
+  min-width: calc(100% / 7);
+  text-align: center;
+  padding: 20px;
+  background-color: #d6c9ff;
+  font-size: 1.2rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.next::before {
+  content: '>>>';
+  font-weight: 900;
+  cursor: pointer;
+  font-size: large;
+}
+
+.prev::before {
+  content: '<<<';
+  font-weight: 900;
+  cursor: pointer;
+  font-size: large;
+}
+
+.next {
+  background: transparent;
+  border: 0;
+}
+
+.prev {
+  background: transparent;
+  border: 0;
+}
+
+.prev-next {
+  padding: 1% 16%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #aed6f1;
+}
+
+.todaysDate {
+  background-color: #8f8bff !important;
+}
+
+.prev-date,
+.next-date {
+  color: #9c9c9c;
+}
